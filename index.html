@@ -3,10 +3,18 @@
   <head>
     <title>Creating and Inserting DOM Elements</title>
   </head>
-  <script type="application/javascript">
+  <body>
+  <main id="main"></main>>
+  <script type="text/javascript">
+
+    const mainElement = document.getElementById('main');
+    if (mainElement) {
+      mainElement.remove();
+    }
+    let newHeader.id = 'victory';
+    newHeader.textContent = 'Naima is the champion';
+
+    document.body.appendChild(newHeader);
   </script>
   <body>
-    <main id="main"></main>
-    <script type="text/javascript" src="index.js"></script>
-  </body>
 </html>
